@@ -1,0 +1,43 @@
+
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px rgb(255, 119, 119) solid;
+}
+
+/* menu layout */
+
+#content {
+    display: flex;
+    gap: 6vw;
+
+    padding: 10vh 8vw;
+}
+
+#content div {
+    flex: 1;
+    background-color: white;
+}
+
+/* content cards */
+
+#content .card {
+    background-clip: content-box;
+    background-color: red;
+    padding: 10vh 0;
+    border: 4rem solid rgba(255, 0, 0, 0.138);
+    border-top: 0;
+    border-bottom: 0;
+}
